@@ -1,0 +1,18 @@
+/*
+ * General Styles Smalls
+*/
+
+.container{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .portada img{
+    border-radius: 0;
+  }
+  
+  aside.copas, aside.regalo{
+    text-align: center;
+    float: inherit;
+  }

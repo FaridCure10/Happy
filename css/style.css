@@ -1,0 +1,128 @@
+/*
+ * General Styles
+*/
+
+
+body {
+    background: url('../images/fondo.jpg');
+    font-family: 'Open Sans', arial, sans-serif;
+  
+    /* Full Page Background Receipe */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  * {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.75;
+    margin-bottom: 28px;
+  }
+
+
+  /*
+ * Heading Styles
+*/
+
+
+h1, h2 {
+    font-family: 'Lobster', cursive;
+    color: #e22f8f;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  /*
+   * Container Styles
+  */
+  
+  .container {
+    width: 600px;
+    margin: 100px auto;
+  }
+  
+  /*
+   * Hero Styles
+  */
+  .portada{
+    line-height: 0;
+  }
+  
+  .portada img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+  }
+  
+  /*
+   * Section Styles
+  */
+section:nth-child(odd){
+    background: lightslategray;
+}
+
+section:nth-child(even){
+  background: white;
+}
+
+  section.intro, section.contact{
+    padding: 40px;
+  }
+  
+  section.contact{
+    clear: right;
+    overflow: auto;
+  }
+  /*
+   * Aside Styles
+  */
+  aside.copas{
+    float: right;
+  }
+
+  .copas img{
+      width: 130px;
+  }
+  
+  aside.regalo{
+    float: left;
+  }
+  
+  .regalo img{
+      width: 130px;
+  }
+
+  aside{
+    margin-right: 1.5rem;
+    margin-bottom: 0.625rem;
+  }
+
+ /*Footer Style*/
+
+  footer{
+    text-align: center;
+    font-weight: bold;
+  }
+
+  a{
+    font-weight: bold;
+  }
